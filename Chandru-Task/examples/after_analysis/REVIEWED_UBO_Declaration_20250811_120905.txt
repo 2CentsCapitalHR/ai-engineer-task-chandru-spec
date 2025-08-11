@@ -1,0 +1,29 @@
+ADGM Compliance Review for UBO Declaration
+==================================================
+
+Review Date: 2025-08-11 12:09:05
+
+COMPLIANCE ISSUES FOUND:
+------------------------------
+
+1. Issue: Missing company objects clause describing business activities
+   Severity: Medium
+   Legal Reference: ADGM Companies Regulations 2020, Article 18
+   Recommendation: Insert a clear and specific description of business activities in the Memorandum of Association
+   Confidence: 0.85
+   Context: Choose business activities.
+
+2. Issue: Missing liability limitation clause
+   Severity: Medium
+   Legal Reference: ADGM Companies Regulations 2020, Article 18
+   Recommendation: Insert a liability limitation clause in the Memorandum of Association
+   Confidence: 0.85
+   Context: Choose the type of legal entity.
+
+3. Issue: Missing jurisdiction clause specifying ADGM Courts as the exclusive jurisdiction for dispute resolution
+   Severity: High
+   Legal Reference: ADGM Companies Regulations 2020, Article 6
+   Recommendation: Insert a jurisdiction clause specifying ADGM Courts as the exclusive jurisdiction for dispute resolution
+   Confidence: 0.85
+   Context: Prepare a business plan.
+

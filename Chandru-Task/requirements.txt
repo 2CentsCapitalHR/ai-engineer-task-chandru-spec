@@ -1,0 +1,24 @@
+# ADGM Corporate Agent - RAG Requirements
+# Core Dependencies
+gradio
+python-docx
+groq
+
+# RAG & ML Dependencies
+sentence-transformers
+faiss-cpu
+numpy
+
+# Document Processing
+python-docx
+Pillow
+PyPDF2
+
+# Utilities
+requests
+json5
+python-dateutil
+
+# Optional: GPU acceleration (comment out if no GPU)
+
+# Development & Testing (optional)

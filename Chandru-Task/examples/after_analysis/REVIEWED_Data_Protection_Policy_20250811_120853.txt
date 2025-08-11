@@ -1,0 +1,15 @@
+ADGM Compliance Review for Data Protection Policy
+==================================================
+
+Review Date: 2025-08-11 12:08:53
+
+COMPLIANCE ISSUES FOUND:
+------------------------------
+
+1. Issue: Lack of explicit reference to ADGM Courts as the exclusive jurisdiction for dispute resolution
+   Severity: Medium
+   Legal Reference: ADGM Companies Regulations 2020, Article 6
+   Recommendation: Add a clause explicitly stating ADGM Courts as the exclusive jurisdiction for dispute resolution
+   Confidence: 0.85
+   Context: Abu Dhabi Global Market (ADGM) is a broad based international financial centre, established pursuant to Abu Dhabi Law No...
+

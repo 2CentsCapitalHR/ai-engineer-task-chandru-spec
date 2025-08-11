@@ -1,0 +1,197 @@
+{
+  "process": "Employment Setup",
+  "process_detection_confidence": 0.48,
+  "documents_uploaded": 5,
+  "uploaded_document_types": [
+    "Data Protection Policy",
+    "Employment Contract",
+    "Articles of Association",
+    "UBO Declaration",
+    "Articles of Association"
+  ],
+  "required_documents": 15,
+  "required_document_list": [
+    "Employment Contract Template",
+    "Employee Handbook",
+    "HR Policies Manual",
+    "Workplace Health & Safety Policy",
+    "Data Protection Policy"
+  ],
+  "missing_documents": [
+    "Employment Contract Template",
+    "Memorandum of Association",
+    "HR Policies Manual",
+    "UBO Declaration Form",
+    "Workplace Health & Safety Policy",
+    "Board Resolution for Incorporation",
+    "Incorporation Application Form",
+    "Register of Members and Directors",
+    "Register of Members",
+    "Employee Handbook",
+    "Board Resolution"
+  ],
+  "issues_found": [
+    {
+      "section_heading": "Introduction to this Guidance",
+      "text_snippet": "Abu Dhabi Global Market (ADGM) is a broad based international financial centre, established pursuant to Abu Dhabi Law No. 4 of 2013 in the Emirate of Abu Dhabi.",
+      "issue": "Lack of explicit reference to ADGM Courts as the exclusive jurisdiction for dispute resolution",
+      "severity": "Medium",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 6",
+      "suggestion": "Add a clause explicitly stating ADGM Courts as the exclusive jurisdiction for dispute resolution",
+      "confidence": 0.85,
+      "document": "Data Protection Policy"
+    },
+    {
+      "section_heading": "THIS EMPLOYMENT CONTRACT",
+      "text_snippet": "This Employment Contract is not to be deemed, considered or relied upon as legal advice",
+      "issue": "Lack of clear obligations and uncertainty",
+      "severity": "Medium",
+      "rule_reference": "ADGM Contract Standards Guide",
+      "suggestion": "Use definitive binding language creating clear obligations",
+      "confidence": 0.85,
+      "document": "Employment Contract"
+    },
+    {
+      "section_heading": "Table of Contents",
+      "text_snippet": "No specific company name, employee name, or date",
+      "issue": "Missing essential information",
+      "severity": "High",
+      "rule_reference": "ADGM Employment Regulations 2019, Section 4.1",
+      "suggestion": "Insert required information",
+      "confidence": 0.85,
+      "document": "Employment Contract"
+    },
+    {
+      "section_heading": "2. EMPLOYMENT TERM",
+      "text_snippet": "No specific employment term duration",
+      "issue": "Missing essential information",
+      "severity": "High",
+      "rule_reference": "ADGM Employment Regulations 2019, Section 4.1",
+      "suggestion": "Specify employment term duration",
+      "confidence": 0.85,
+      "document": "Employment Contract"
+    },
+    {
+      "section_heading": "16. TERMINATION",
+      "text_snippet": "No specific termination notice periods",
+      "issue": "Missing essential information",
+      "severity": "High",
+      "rule_reference": "ADGM Employment Regulations 2019, Section 4.1",
+      "suggestion": "Specify termination notice periods",
+      "confidence": 0.85,
+      "document": "Employment Contract"
+    },
+    {
+      "section_heading": "22. GOVERNING LAW",
+      "text_snippet": "No specific jurisdiction clause",
+      "issue": "Missing essential information",
+      "severity": "High",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 6",
+      "suggestion": "Specify ADGM Courts as the exclusive jurisdiction",
+      "confidence": 0.85,
+      "document": "Employment Contract"
+    },
+    {
+      "section_heading": "RESOLUTION OF INCORPORATING SHAREHOLDERS",
+      "text_snippet": "We, the undersigned, being the incorporating shareholders, resolve to incorporate a private company limited by shares in the Abu Dhabi Global Market under the name of [insert proposed company name]",
+      "issue": "Company name does not end with 'Limited' or 'Ltd'",
+      "severity": "High",
+      "rule_reference": "ADGM MoA Template Standards 2023, ADGM Companies Regulations 2020, Article 18",
+      "suggestion": "Add 'Limited' or 'Ltd' to the company name",
+      "confidence": 0.95,
+      "document": "Articles of Association"
+    },
+    {
+      "section_heading": "Authorised Share Capital",
+      "text_snippet": "IT WAS RESOLVED that the amount of the authorised share capital of the company shall be as follows: [xxxx] USD",
+      "issue": "Share capital amount is not stated in AED with par value",
+      "severity": "Medium",
+      "rule_reference": "ADGM MoA Template Standards 2023, ADGM Companies Regulations 2020, Article 18",
+      "suggestion": "Replace USD with AED and specify par value",
+      "confidence": 0.9,
+      "document": "Articles of Association"
+    },
+    {
+      "section_heading": "Appointment of Signatory for Incorporation Purposes",
+      "text_snippet": "IT WAS FURTHER RESOVED, that {insert authorised persons name(s)} is/are, and each acting alone is, hereby authorized to do and perform any and all such acts, including execution of any and all documents and certificates, as said person shall deem necessary or advisable, to carry out the purposes of the foregoing resolutions to complete the incorporation process with the ADGM RA",
+      "issue": "No mention of ADGM Courts as exclusive jurisdiction for dispute resolution",
+      "severity": "High",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 6",
+      "suggestion": "Add a clause stating ADGM Courts as exclusive jurisdiction for dispute resolution",
+      "confidence": 0.95,
+      "document": "Articles of Association"
+    },
+    {
+      "section_heading": "UBO Declaration",
+      "text_snippet": "Choose business activities.",
+      "issue": "Missing company objects clause describing business activities",
+      "severity": "Medium",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 18",
+      "suggestion": "Insert a clear and specific description of business activities in the Memorandum of Association",
+      "confidence": 0.85,
+      "document": "UBO Declaration"
+    },
+    {
+      "section_heading": "UBO Declaration",
+      "text_snippet": "Choose the type of legal entity.",
+      "issue": "Missing liability limitation clause",
+      "severity": "Medium",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 18",
+      "suggestion": "Insert a liability limitation clause in the Memorandum of Association",
+      "confidence": 0.85,
+      "document": "UBO Declaration"
+    },
+    {
+      "section_heading": "UBO Declaration",
+      "text_snippet": "Prepare a business plan.",
+      "issue": "Missing jurisdiction clause specifying ADGM Courts as the exclusive jurisdiction for dispute resolution",
+      "severity": "High",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 6",
+      "suggestion": "Insert a jurisdiction clause specifying ADGM Courts as the exclusive jurisdiction for dispute resolution",
+      "confidence": 0.85,
+      "document": "UBO Declaration"
+    },
+    {
+      "section_heading": "RESOLUTION OF THE SHAREHOLDERS",
+      "text_snippet": "a [private company limited by shares/restricted scope company]",
+      "issue": "Company type not specified in accordance with ADGM Companies Regulations 2020, Article 12",
+      "severity": "Medium",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 12",
+      "suggestion": "Specify the company type (e.g., private company limited by shares) in accordance with ADGM regulations",
+      "confidence": 0.85,
+      "document": "Articles of Association"
+    },
+    {
+      "section_heading": "RESOLUTION OF THE SHAREHOLDERS",
+      "text_snippet": "with registration number [xxxxxxxxx]",
+      "issue": "Registration number not specified in accordance with ADGM Incorporation Checklist 2024",
+      "severity": "Medium",
+      "rule_reference": "ADGM Incorporation Checklist 2024",
+      "suggestion": "Include the registration number in the document",
+      "confidence": 0.85,
+      "document": "Articles of Association"
+    },
+    {
+      "section_heading": "RESOLUTION OF THE SHAREHOLDERS",
+      "text_snippet": "having its registered address at [insert registered office address]",
+      "issue": "Registered office address not specified in accordance with ADGM MoA Template Standards 2023",
+      "severity": "Medium",
+      "rule_reference": "ADGM MoA Template Standards 2023",
+      "suggestion": "Specify the registered office address in accordance with ADGM regulations",
+      "confidence": 0.85,
+      "document": "Articles of Association"
+    },
+    {
+      "section_heading": "FURTHER RESOLVED",
+      "text_snippet": "{insert authorised persons name(s)} is/are, and each acting alone is, hereby authorized to do and perform any and all such acts",
+      "issue": "Authorized persons not specified in accordance with ADGM Companies Regulations 2020, Article 12",
+      "severity": "Medium",
+      "rule_reference": "ADGM Companies Regulations 2020, Article 12",
+      "suggestion": "Specify the authorized persons in accordance with ADGM regulations",
+      "confidence": 0.85,
+      "document": "Articles of Association"
+    }
+  ],
+  "timestamp": "2025-08-11T12:09:17.292546",
+  "report_version": "v2.0"
+}
